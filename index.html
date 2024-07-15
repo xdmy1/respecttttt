@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respect Auto - Inchirieri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousels.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    
+     
+</head>
+<body>
+    <nav>
+        <div class="desktop-nav">
+            <div class="right">
+                <a href="#">
+                    <img src="assets/logo.png" alt="Logo" class="nav-logo">
+                <p>Respect Auto</p></a>
+            </div>
+            <div id="home" class="middle ">
+                <li><a href="#">Acasa</a></li>
+                <li><a href="#masini">Automobile</a></li>
+                <li><a href="#rezerva">Rezerva</a></li>
+                <li><a href="#locatia">Locatia</a></li>
+                <li><a href="#contacte">Contacte</a></li>
+                <li><a href="conditii.html">Conditii</a></li>
+            </div>
+            <div class="right">
+                <a href="#index.html">RO</a>
+                <a href="index-ru.html">RU</a>
+                <a href="index-en.html">EN</a>
+            </div>
+        </div>
+        <ul class="mobile-nav">
+            <div class="top">
+                <a href="#" class="logo-container"><img src="assets/logo.png" alt="Logo" class="nav-logo">
+                    <p>Respect Auto</p></a>
+                <li class="burger" onclick=openNav()><a href="#"><img class="svg-nav" src="assets/burger-menu-left-svgrepo-com.svg" alt=""></a></li>
+                <li class="close" onclick=closeNav()><a href="#"><img class="svg-nav nav-close" src="assets/close-svgrepo-com.svg" alt=""></a></li>               
+            </div>
+            <div class="mobile-li">
+                <li onclick=closeNav()><a href="#">Acasa</a></li>
+                <li onclick=closeNav()><a href="#masini">Automobile</a></li>
+                <li onclick=closeNav()><a href="#rezerva">Rezerva</a></li>
+                <li onclick=closeNav()><a href="#locatia">Locatia</a></li>
+                <li onclick=closeNav()><a href="#contacte">Contacte</a></li>
+                <li onclick=closeNav()><a href="conditii.html">Conditii</a></li>
+                <li class="language-change-mobile" onclick=closeNav()>
+                    <a href="#index.html">RO</a>
+                    <a href="index-ru.html">RU</a>
+                    <a href="index-en.html">EN</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+              <div class="container-hero">
+                <p class="hero-textt">Contacteaza-ne! </p>
+                <a class="hero-textt telephone-number" href="tel:+37369616165">+373 69 616165</a>
+                <div class="hero-contacts">
+                    <a href="https://wa.me/37368327082"><img class="hero-icons" src="assets/whatsapp.svg" alt=""></a>
+                    <a href="https://t.me/+37368327082"><img class="hero-icons" src="assets/telegram.svg" alt=""></a>
+                    <a href="viber://chat?number=%2B37368327082"><img class="hero-icons" src="assets/viber.svg" alt=""></a>
+                </div>
+              </div>
+                
+                <div class="hero-text">
+            <h1>Chirie Auto</h1>
+            <p class="color-hero hero-textt">Sigur, confortabil, rapid</p>
+        </div>
+        </section>     
+
+        <section id="masini" class="masini cards">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car1.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Renault Captur</h5>
+                      <p>1-2zile / 40€ <br>
+                        3-7zile / 28€ <br> 
+                        8-20zile / 24€ <br> 
+                        21-45zile / 19€ <br>
+                        46Zile / 17€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car1.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car1.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark2" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car2.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Renault Captur</h5>
+                      <p>1-2zile / 40€ <br>
+                        3-7zile / 28€ <br> 
+                        8-20zile / 24€ <br> 
+                        21-45zile / 19€ <br>
+                        46Zile / 17€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car2.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car2.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark3" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car3.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>BMW X5</h5>
+                      <p>1-2zile / 100€ <br>
+                        3-7zile / 80€ <br>
+                        8-20zile / 70€ <br>
+                        21-45zile / 50€ <br>
+                        46zile / 40€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car3.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car3.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark4" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car4.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Mercedes GLC 300</h5>
+                      <p>1-2zile / 85€ <br>
+                        3-7zile / 75€ <br>
+                        8-20zile / 65€ <br>
+                        21-45zile / 45€ <br>
+                        46zile / 35€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car4.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car4.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark5" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car5.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Mercedes GLC 300</h5>
+                      <p>1-2zile / 85€ <br>
+                        3-7zile / 75€ <br> 
+                        8-20zile / 65€ <br> 
+                        21-45zile / 45€ <br>
+                        46zile / 35€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car5.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car5.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark6" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car6.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>BMW X5</h5>
+                      <p>1-2zile / 100€ <br>
+                        3-7zile / 80€ <br> 
+                        8-20zile / 70€ <br> 
+                        21-45zile / 50€ <br>
+                        46zile / 40€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car6.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car6.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark7" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car7.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Kia Soul</h5>
+                      <p>1-2zile / 35€ <br>
+                        3-7zile / 23€ <br>
+                        8-20zile / 19€ <br> 
+                        21-45zile / 17€ <br>
+                        46zile / 15€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car7.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car7.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark7" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark7" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark8" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car8.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Peugeot 208</h5>
+                      <p>1-2zile / 35€ <br>
+                        3-7zile / 23€ <br>
+                        8-20zile / 19€ <br>
+                        21-45zile / 17€ <br> 
+                        46zile / 15€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car8.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car8.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark8" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark8" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark9" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car9.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Hyunday SantaFE</h5>
+                      <p>1-2zile / 70€ <br>
+                        3-7zile / 55€ <br> 
+                        8-20zile / 50€ <br>
+                        21-45zile / 45€ <br> 
+                        46zile / 30€ <br>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car9.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car9.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark9" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark9" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark10" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark10" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car10.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Audi A6</h5>
+                      <p>1-2zile / 80€ <br>
+                        3-7zile / 60€ <br> 
+                        8-20zile / 50€ <br> 
+                        21-45zile / 40€ <br>
+                        46zile / 35€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car10.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car10.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark10" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark10" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark11" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car11.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Kia Niro</h5>
+                      <p>1-2zile / 50€ <br>
+                        3-7zile / 35€ <br> 
+                        8-20zile / 30€ <br> 
+                        21-45zile / 20€ <br>
+                        46zile / 19€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car11.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car11.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark11" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark11" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark12" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark12" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark12" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car12.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Kia Niro</h5>
+                      <p>1-2zile / 50€ <br>
+                        3-7zile / 35€ <br>
+                        8-20zile / 30€ <br> 
+                        21-45zile / 20€ <br>
+                        46zile / 19€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car12.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car12.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark12" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark12" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark13" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark13" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark13" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark13" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car13.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Renault Captur</h5>
+                      <p>1-2zile / 40€ <br>
+                        3-7zile / 28€ <br> 
+                        8-20zile / 24€ <br> 
+                        21-45zile / 19€ <br>
+                        46Zile / 17€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car13.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car13.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark13" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark13" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark14" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark14" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark14" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark14" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car14.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Peugeot 208</h5>
+                      <p>1-2zile / 35€ <br> 
+                        3-7zile / 23€ <br> 
+                        8-20zile / 19€ <br>
+                        21-45zile / 17€ <br>
+                        46zile / 15€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car14.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car14.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark14" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark14" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark15" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark15" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark15" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark15" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car15.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>VW Jetta</h5>
+                      <p>1-2zile / 45€ <br>
+                        3-7zile / 35€ <br> 
+                        8-20zile / 30€<br>
+                        21-45zile / 22€ <br>
+                        46zile / 17€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car15.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car15.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark15" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark15" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark16" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark16" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark16" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark16" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car16.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Mercedes GLA</h5>
+                      <p>1-2zile / 60€ <br> 
+                        3-7zile / 50€ <br> 
+                        8-20zile / 45€<br>
+                        21-45zile / 35€ <br>
+                        46zile / 25€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car16.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car16.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark16" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark16" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark17" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark17" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark17" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark17" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car17.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>BMW x4</h5>
+                      <p>1-2zile / 60€ <br>
+                        3-7zile / 50€ <br> 
+                        8-20zile / 45€ <br> 
+                        21-45zile / 35€ <br>
+                        46zile / 25€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car17.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car17.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark17" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark17" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="carouselExampleDark18" class="carousel carousel-dark slide" touch="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark18" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark18" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark18" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/car18.1.webp" class="d-block w-100 image-car " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h5>Fiat 500e</h5>
+                      <p>1-2zile / 30€ <br>
+                        3-7zile / 23€ <br> 
+                        8-20zile / 19€ <br> 
+                        21-45zile / 17€ <br>
+                        46zile / 15€</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/car18.2.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/car18.3.webp" class="d-block w-100 image-car" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev button-hide" type="button" data-bs-target="#carouselExampleDark18" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button-hide" type="button" data-bs-target="#carouselExampleDark18" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+
+      
+
+        <section id="rezerva" class="form">
+            <form action="https://form.taxi/s/g7v4skf2" id="ft-form" method="POST" accept-charset="UTF-8">
+                <fieldset>
+                  <legend>Rezerveaza o masina</legend>
+                  <legend>De la:</legend>
+                    <label>
+                      <input type="date" name="De la:" required>
+                    </label>
+                    <legend>Pana la:</legend>
+                    <label>
+                      <input type="date" name="Pana la:" required>
+                    </label>
+                  <label>
+                    Nume
+                    <input type="text" name="name" required>
+                  </label>
+                  <div class="two-cols">
+                    <label>
+                      Adresa de e-mail
+                      <input type="email" name="email" required>
+                    </label>
+                    <label>
+                      Numar de telefon (Viber, Whatsapp)
+                      <input type="tel" name="phone" required>
+                    </label>
+                  </div>
+                  <legend>Selectati masina</legend>
+                    <label class="list1" for="transport">
+                      <select class="list1" name="" id="">
+                        <option>Hyundai SantaFE</option>
+                        <option>Mercedes GLC 300</option>
+                        <option>Audi A6</option>
+                        <option>VW Jetta</option>
+                        <option>Renault Captur</option>
+                        <option>BMW X5</option>
+                        <option>Kia Soul</option>
+                        <option>Kia Niro</option>
+                        <option>Peugeot 208</option>
+                  
+                        <option>Mercede GLA</option>
+                        <option>BMW x4</option>
+                        <option>Fiat 500e</option>
+
+                      </select>
+                    </label>
+                </fieldset>
+                  
+                <div class="btns">
+                  <input type="text" name="_gotcha" value="" style="display:none;">
+                  <input class="rezerveaza-trimite" type="submit" value="Trimite">
+                </div>
+              </form>
+        </section>
+
+
+        <section id="locatia" class="map">
+            <div class="map-text"><div class="our-team-text"><h2>Locatia</h2></div></div>
+            <div class="paragraf-map"><p>Sectorul Botanica, Or. Chisinau</p></div>
+            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2722.3668449171355!2d28.861748908975134!3d46.97412883097372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9793975c22a23%3A0xd6ca41195738f503!2sstr.%20Nichita%20Stanescu!5e0!3m2!1sro!2s!4v1719085978542!5m2!1sro!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> 
+
+        <footer id="contacte" class="footer">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-logo">
+                        <a href="#hero"><img src="assets/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="footer-col1">
+                        <h4 lg="FooterInfoTitle">Informații Generale</h4>
+                        <ul>
+                            <li><a lg="despre" href="#about">Despre</a></li>
+                            <li><a lg="servicii" href="#servicii">Servicii</a></li>
+                            <li><a lg="recenzii" href="#our-team">Recenzii</a></li>
+                            <li><a lg="locatia" href="#locatia">Locatia</a></li>
+                            <li><a href="conditii.html">Conditii</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col1">
+                        <h4 lg="FooterContactTitle">Contact</h4>
+                        <ul class="contact-col1">
+                            <li class="footer-contact1"><i class="fa-solid fa-phone" alt="Telefon Icon"></i>
+                                <a href="tel:+37369616165">+373 69 616165</a></li>
+                            <li class="footer-contact1"><img src="assets/email-icon.svg" alt="Email Icon"><a
+                                    href="mailto:contact@respectauto.md">contact@respectauto.md</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col1">
+                        <h4>Rețele Sociale</h4>
+                        <div class="social-links1">
+                            <a href="https://www.instagram.com/respectauto.md" target="_blank"><img style="width: 30px;" src="assets/instagram.svg" alt="instagram"></a><a href="https://www.facebook.com/profile.php?id=61560564335129&mibextid=LQQJ4d&rdid=yYCdSZwWbctHSjPq&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FLKR3uiDtkhxmJyFM%2F%3Fmibextid%3DLQQJ4d" target="_blank"><img src="assets/facebook.svg" alt="facebook"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
